@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GH Cafe</title>
+    <link rel="stylesheet" href="cafe.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/bagnard-sans" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#">
+        <div id="logo"></div>
+    </a>
+    <div class="row">
+        <div id="crsl">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/food1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/food2.jpg" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/home3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="trip" class="lnkbtn">
+                <a href="https://fr.tripadvisor.ca/Restaurant_Review-g155032-d18818881-Reviews-GH_Cafe-Montreal_Quebec.html" style="color: black;"><i class="fa fa-tripadvisor"></i></a>
+            </div>
+            <div id="yelp" class="lnkbtn">
+                <a href="https://fr.yelp.ca/biz/caf%C3%A9-gh-montr%C3%A9al?osq=gh+cafe" style="color: black;"><i class="fa fa-yelp" style="font-size: 20px;"></i></a>
+            </div>
+            <div id="insta" class="lnkbtn">
+                <a href="https://www.instagram.com/ghespacecafe/?hl=fr-ca" style="color: black;"><i class="fa fa-instagram" style="font-size: 24px;"></i></a>
+            </div>
+            <div id="fb" class="lnkbtn">
+                <a href="https://www.facebook.com/Gh-espace-caf%C3%A9-361652837832571" style="color: black;"><i class="fa fa-facebook-f" style="font-size: 18px;"></i></a>
+            </div>
+            <div id="nvmn" class="lnkbtn">
+                <a href="#" onclick="openNav()" style="color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="36"
+                        height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg></a>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="./index.html">Home</a>
+                    <a href="./coffeeshop.html">Our Coffee Shop</a>
+                    <a href="./coffeemenu.html">Coffee Menu</a>
+                    <a href="./foodmenu.html" style="color: white;">Food Menu</a>
+                    <a href="./dairymenu.html">Dairy Menu</a>
+                    <a href="./store.html">Convenience Store</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="https://griffintownhotel.com/en-us/">Griffintown Hotel</a>
+                </div>
+
+
+            </div>
+        </div>
+        <div id="contnt">
+            <div class="row contnttop">
+                <button onclick="window.location.href='./contact.html'" id="btncontact">Contact</button>
+            </div>
+            <div class="row contntmidle">
+                <p style="margin-top: 50px; padding-top: 40px;">Menu</p>
+
+                <p style="font-size: 28px; padding-top: 50px;">Sandwichs</p>
+                <table class="menutable" style="margin-left: 35px; margin-right: 10px;">
+                    <tbody>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>Ciabatta - ham, butter, cheese and pickles</td>
+                            <td style="text-align: right;">9.99</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>Porchetta Baguette - served grilled with marinated peppers and spicy mayo.</td>
+                            <td style="text-align: right;">9.99</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>Homestyle Grilled Cheese</td>
+                            <td style="text-align: right;">6.99</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>English Muffin - served toasted with egg, bacon and cheese</td>
+                            <td style="text-align: right;">6.99</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>Wrap Vegan AuxVivres</td>
+                            <td style="text-align: right;">9.99</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>Wrap Mexican Spicy Tuna</td>
+                            <td style="text-align: right;">9.99</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p style="font-size: 28px; padding-top: 50px;">Salads</p>
+                <table class="menutable" style="margin-left: 35px; margin-right: 10px; text-align: justify;">
+                    <tbody>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td class="py-3" style="padding-right: 30px;">Dragon AuxVivres - Noble Bean Organic Tempeh, dragon sauce, green pea sprouts, organic
+                                quinoa, lentils, rice and fresh vegetables.</td>
+                            <td style="text-align: right;">14.90</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td class="py-3" style="padding-right: 30px;">Chicken Caesar - broccoli, romaine lettuce, parmesan, capers, quinoa, chick-weight,
+                                caesar dressing</td>
+                            <td style="text-align: right;">14.90</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td class="py-3" style="padding-right: 30px;">Caesar Tempeh - broccoli, romaine lettuce, vegan mozza-style cheese, capers, quinoa,
+                                chick-weight, Caesar dressing and vegan mayo</td>
+                            <td style="text-align: right;">14.90</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td class="py-3" style="padding-right: 30px;">Chicken Poke Style - with mango, carrot, red cabbage, rice, sesame seeds, cilantro, miso
+                                and sesame dressing.</td>
+                            <td style="text-align: right;">14.90</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td class="py-3" style="padding-right: 30px;">Vegan Tofu Poke Style - with mango, carrot, red cabbage, rice, sesame seeds, cilantro,
+                                miso and sesame dressing.</td>
+                            <td style="text-align: right;">14.90</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td class="py-3" style="padding-right: 30px;">Mexican Chicken - with carrots, corn, cilantro, red cabbage, rice, slightly spicy sauce.
+                            </td>
+                            <td style="text-align: right;">14.90</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p style="font-size: 28px; padding-top: 50px;">The sweet corner</p>
+                <table class="menutable" style="margin-left: 35px; margin-right: 10px; margin-bottom: 150px;">
+                    <tbody>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>Muffin of the day - carrot-spelled, blueberry, apple crumble</td>
+                            <td style="text-align: right;">4.19</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>Chocolate brownie</td>
+                            <td style="text-align: right;">6.00</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>Date square</td>
+                            <td style="text-align: right;">6.00</td>
+                        </tr>
+                        <tr style="height: 72px; border-bottom: 1px solid rgba(0, 0, 0, 0.15);">
+                            <td>Belgian waffle</td>
+                            <td style="text-align: right;">4.90</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr style="padding: 0;">
+                <table class="menutable" style="margin:0; padding:0;">
+                    <tbody>
+                        <tr style="height: 56px;">
+                            <td>159 rue Murray, Montréal</td>
+                            <td style="text-align: right; font-weight: bold;"><a href="#"
+                                    style="color: black;">(514)651-3383</a></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "55%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+</html>
